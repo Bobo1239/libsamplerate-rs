@@ -9,9 +9,7 @@ environment:
   matrix:
     # MinGW
     - TARGET: i686-pc-windows-gnu
-      MSYSTEM: mingw32
     - TARGET: x86_64-pc-windows-gnu
-      MSYSTEM: mingw64
 
     # MSVC
     - TARGET: i686-pc-windows-msvc

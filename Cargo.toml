@@ -1,0 +1,9 @@
+[package]
+authors = ["Boris-Chengbiao Zhou <bobo1239@web.de>"]
+name = "libsamplerate"
+version = "0.1.0"
+
+[dependencies.libsamplerate-sys]
+path = "libsamplerate-sys"
+
+[workspace]

@@ -4,5 +4,5 @@ name = "libsamplerate-sys"
 version = "0.1.0"
 
 [build-dependencies]
-bindgen = "0.31.3"
+# bindgen = "0.31.3"
 cmake = "0.1.28"

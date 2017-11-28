@@ -55,6 +55,8 @@ matrix:
       rust: nightly
     - env: TARGET=x86_64-pc-windows-gnu
       rust: nightly
+  allow_failures:
+    - env: TARGET=i686-linux-android
 
 before_install:
   - set -e
